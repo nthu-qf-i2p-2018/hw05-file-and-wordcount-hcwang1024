@@ -60,7 +60,7 @@ def main(filename):
 
     # BONUS: dump to a pickle file named "wordcount.pkl"
     # hint: dump the Counter object directly
-    pickle.dump(word_counter.most_common(), open("wordcount.json","wb"))
+    pickle.dump(word_counter.most_common(), open("wordcount.pkl","wb"))
 
 if __name__ == '__main__':
     main("i_have_a_dream.txt")
