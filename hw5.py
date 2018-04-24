@@ -1,10 +1,4 @@
 
-# coding: utf-8
-
-# In[6]:
-
-
-# -*- coding: utf-8 -*-
 import csv
 import json
 import pickle
@@ -52,7 +46,8 @@ def main(filename):
         writer.writerow(['word', 'count'])
         # write all (word, count) pair into the csv writer
         writer.writerows(word_counter.most_common())
-
+    
+    
     # dump to a json file named "wordcount.json"
     json.dump(word_counter.most_common(), open("wordcount.json","w"))
         
@@ -64,4 +59,3 @@ def main(filename):
 
 if __name__ == '__main__':
     main("i_have_a_dream.txt")
-
