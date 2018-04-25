@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[2]:
-
-
 # -*- coding: utf-8 -*-
 import csv
 import json
@@ -63,5 +57,4 @@ def main(filename):
     
 
 if __name__ == '__main__':
-    main("i_have_a_dream(1).txt")
-
+    main("i_have_a_dream.txt")
